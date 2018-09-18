@@ -10,9 +10,9 @@ export default class ImageSlider extends Component {
   
   render() {
     return (
-      <div className="bar" id="cat">
-         'I am on slide <CURRENT_SLIDE>'
-      </div>
+      <p>
+         I am on slide {this.state.count}
+      </p>
     );
   }
 }
