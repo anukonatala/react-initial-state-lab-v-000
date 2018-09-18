@@ -11,7 +11,7 @@ export default class ImageSlider extends Component {
   render() {
     return (
       <div className="bar" id="cat">
-        <img src="/cat.gif" />
+         'I am on slide <CURRENT_SLIDE>'
       </div>
     );
   }
