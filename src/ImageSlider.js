@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
-import CatComponent from './CatComponent.js'
-import { FordQuoteComponent } from './FordQuoteComponent'
-import MouseComponent from '../MouseComponent'
 
-class App extends Component {
+export default class ImageSlider extends Component {
   render() {
-    // your code in the return statement below!
     return (
-      <div className="App">
-        <CatComponent />
-        <FordQuoteComponent />
-        <MouseComponent />
+      <div className="bar" id="cat">
+        <img src="/cat.gif" />
       </div>
     );
   }
 }
-
-export default ImageSlider;
