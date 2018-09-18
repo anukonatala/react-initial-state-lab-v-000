@@ -4,7 +4,7 @@ export default class ImageSlider extends Component {
    constructor() {
     super()
     this.state = {
-      count: 0
+      currentSlideIndex: 0
     }
   }
   
